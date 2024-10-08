@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D75B09">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            android:id="@+id/gameOverAnim"
+            app:lottie_speed="2"
+            app:lottie_rawRes="@raw/bomb_anim"
+            android:layout_weight="0.7"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="MINESCAPE"
+            android:fontFamily="@font/learnthing"
+            android:textColor="@color/cyan"
+            android:id="@+id/title_text"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/new_game_btn"
+            android:layout_weight="1"
+            android:id="@+id/newGame"
+            android:text="NEW GAME"
+            android:fontFamily="@font/happyhaloween"
+            android:layout_margin="10dp"
+            android:textSize="60sp"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/new_game_btn"
+            android:layout_weight="1"
+            android:text="HOW TO PLAY"
+            android:id="@+id/howtoPlay"
+            android:textSize="60sp"
+            android:onClick="onClick"
+            android:fontFamily="@font/happyhaloween"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:background="@drawable/points_button"
+            android:layout_weight="1"
+            android:text="EXIT GAME"
+            android:fontFamily="@font/happyhaloween"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:id="@+id/exitGame"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

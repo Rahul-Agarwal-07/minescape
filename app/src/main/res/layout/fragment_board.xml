@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".boardFrag"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy00"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy01"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy02"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy03"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy04"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy05"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy10"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy11"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy12"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy13"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy14"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy15"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy20"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy21"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy22"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy23"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy24"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy25"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy30"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy31"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy32"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy33"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy34"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy35"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy40"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy41"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy42"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy43"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy44"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy45"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy50"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy51"
+            android:background="@drawable/button1"
+            android:padding="2dp"
+            android:onClick="playGame"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy52"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy53"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy54"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/xy55"
+            android:layout_marginLeft="5dp"
+            android:onClick="playGame"
+            android:background="@drawable/button1"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

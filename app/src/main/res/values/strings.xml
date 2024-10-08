@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MINESCAPE</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rules">1. YOU HAVE TO SELECT RANDOM TILE \n \n
+    2. EACH TILE HAS SOME POINTS \n \n
+    3. IF YOU CLICKED A BOMB THEN GAME OVER</string>
+
+</resources>
